@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.header {
+    height: 80px;
+
+    text-align: center;
+    align-content: end; /* Mirar*/
+    background-color: teal;
+    padding-bottom: 20px;
+    
+    display: flex;
+}
+
+.header a {
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+
+    margin-left: 50px;
+
+}
