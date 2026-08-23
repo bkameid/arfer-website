@@ -5,20 +5,26 @@ body {
 
 .header {
     height: 80px;
+    width: 100vw;
+    padding-top: 20px;
 
-    text-align: center;
-    align-content: end; /* Mirar*/
     background-color: teal;
-    padding-bottom: 20px;
-    
+
     display: flex;
 }
 
-.header a {
+.menu, .logo {
+    align-content: center;
+}
+
+.menu a {
     color: aliceblue;
     font-weight: bold;
     text-decoration: none;
 
     margin-left: 50px;
+}
 
+.logo {
+    margin-left: 80px;
 }
