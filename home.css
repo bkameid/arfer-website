@@ -57,7 +57,7 @@ article img {
     object-fit: contain;
 }
 
-article p {
+article p, h3 {
     margin-left: 50px;
     margin-top: 0;
     text-align: justify;
