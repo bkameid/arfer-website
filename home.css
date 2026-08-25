@@ -36,3 +36,29 @@ header {
 .logo {
     margin-left: 80px;
 }
+
+/* ---------- BEGIN CSS MAIN ---------- */
+
+main {
+    background-color: rgb(254, 254, 222);
+    height:100vw;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+article {
+    padding: 30px;
+    height: 300px;
+    overflow-wrap: anywhere;
+}
+
+article img {
+    margin-left: 80px;
+    object-fit: contain;
+}
+
+article p {
+    margin-left: 50px;
+    margin-top: 0;
+    text-align: justify;
+}
