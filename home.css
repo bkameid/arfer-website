@@ -3,12 +3,12 @@ body {
     margin: 0;
 }
 
-.header {
+header {
     height: 80px;
     width: 100vw;
-    padding-top: 20px;
+    padding-top: 0;
 
-    background-color: teal;
+    background-color: rgb(13, 149, 149);
 
     display: flex;
 }
@@ -17,12 +17,20 @@ body {
     align-content: center;
 }
 
+.menu {
+    align-items: center;
+    position: absolute; 
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
 .menu a {
     color: aliceblue;
     font-weight: bold;
     text-decoration: none;
 
-    margin-left: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .logo {
